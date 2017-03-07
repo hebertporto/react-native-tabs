@@ -1,0 +1,383 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"sta",
+				"state_id"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.ios.js",
+			"settings":
+			{
+				"buffer_size": 1054,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 342.0,
+		"last_filter": "package",
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Install Package Control"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/rafael/React-native/react-native-tabs"
+	],
+	"file_history":
+	[
+		"/Users/rafael/Doctormate/Production/partner-doctormate/web/www/value/configValue.js",
+		"/Users/rafael/Doctormate/Production/partner-doctormate/web/www/routes.js",
+		"/Users/rafael/Doctormate/Production/partner-doctormate/web/lib/AngularJS-Toaster/toaster.min.js",
+		"/Users/rafael/Doctormate/Production/partner-doctormate/web/dist/vendor.min.js",
+		"/Users/rafael/Documents/Documentação API.postman_collection",
+		"/Users/rafael/Downloads/converted.json",
+		"/Users/rafael/Documents/DocumentationDM2.json",
+		"/Users/rafael/Documents/Documentation DM.json",
+		"/Users/rafael/Documents/Documentation DM.postman_collection",
+		"/Library/WebServer/Documents/doctormate-staging/web/api/application/controllers/Feed.php",
+		"/Users/rafael/[HEROKU] doctormate-backend/web/api/application/models/admin/Users_model_adm.php",
+		"/Users/rafael/[HEROKU] doctormate-backend/web/api/application/controllers/admin/Users.php",
+		"/Users/rafael/Doctormate/Production/admin-doctormate/web/www/value/config.js",
+		"/Users/rafael/Doctormate/Production/admin-doctormate/web/www/routes.js",
+		"/Users/rafael/Doctormate/Dev/doctormate_partner_web/index.html",
+		"/Users/rafael/Doctormate/Production/doctormate-web/web/index.html",
+		"/Users/rafael/Doctormate/Production/doctormate-web/web/www/value/configValue.js",
+		"/Users/rafael/Doctormate/Production/doctormate-web/web/www/routes.js",
+		"/Users/rafael/Doctormate/Production/doctormate-web/web/www/app.js",
+		"/Users/rafael/Downloads/users-24-2-2017.csv",
+		"/Users/rafael/Doctormate/Database/Dev/Registro_incompleto_02-03-17_08-45.csv",
+		"/Users/rafael/Doctormate/Production/api-doctormate/web/v0.4/application/models/Pages_model.php",
+		"/Users/rafael/[HEROKU] doctormate-backend/web/api/application/models/Pages_model.php",
+		"/Library/WebServer/Documents/dev/soap/lib/nusoap.php",
+		"/Users/rafael/Downloads/exemplos/Request_Consultar_Profissionais.xml",
+		"/Library/WebServer/Documents/dev/soap/soap.php",
+		"/Library/WebServer/Documents/dev/soap/lib/class.soapclient.php",
+		"/Library/WebServer/Documents/dev/soap/soap1.php",
+		"/Users/rafael/Downloads/nusoap-0.9.5/samples/client1.php",
+		"/Users/rafael/Doctormate/Production/partner-doctormate/web/index.html",
+		"/private/var/folders/rw/4wk0ct_d7r5823sv4p12kvj00000gp/T/assets_css_style_Before_7794344bda76f7400a5b229751ed6d211d9caf0f.css",
+		"/Users/rafael/Downloads/exemplos/Request_Consultar_Estabelecimento.xml",
+		"/Users/rafael/[HEROKU] doctormate-backend/web/api/application/models/News_model.php",
+		"/Users/rafael/Doctormate/Production/api-doctormate/composer.lock",
+		"/Users/rafael/Doctormate/Production/api-doctormate/app.json",
+		"/Users/rafael/Doctormate/Production/api-doctormate/web/v0.4/.gitignore",
+		"/Users/rafael/Doctormate/Production/api-doctormate/web/v0.4/composer.json",
+		"/Users/rafael/Doctormate/Production/api-doctormate/composer.json",
+		"/Users/rafael/Doctormate/Production/doctormate-web/composer.json",
+		"/Users/rafael/Doctormate/Production/partner-doctormate/web/gulpfile.js",
+		"/Users/rafael/Doctormate/Production/api-doctormate/web/v0.3.2/application/config/constants.php",
+		"/Users/rafael/Doctormate/Production/api-doctormate/web/v0.4/index.php",
+		"/Users/rafael/Doctormate/Production/api-doctormate/web/v0.3/application/config/constants.php",
+		"/Users/rafael/Doctormate/Production/api-doctormate/web/v0.3.1/application/config/constants.php",
+		"/Users/rafael/Doctormate/Production/doctormate-web/web/dist/app.min.js",
+		"/Library/WebServer/Documents/dev/med_info/converteCsv.php",
+		"/Library/WebServer/Documents/dev/med_info/csvImport.csv",
+		"/Library/WebServer/Documents/dev/med_info/DM_BA.csv",
+		"/Users/rafael/Doctormate/doctormatefrontend/config.xml",
+		"/Users/rafael/Doctormate/doctormatefrontend/www/js/services/socket.js",
+		"/Users/rafael/Doctormate/doctormatefrontend/www/js/services/registration.service.js",
+		"/Library/WebServer/Documents/dev/med_info/inserirDados.php",
+		"/Library/WebServer/Documents/dev/estabelecimentos_desat/getDataMedDetailDesat.php",
+		"/Library/WebServer/Documents/dev/med_places/inserirDados.php",
+		"/Library/WebServer/Documents/info.php",
+		"/Library/WebServer/Documents/getDataMed.php",
+		"/Users/rafael/Doctormate/doctormate_chat_server/config/config.js",
+		"/Users/rafael/Doctormate/doctormate_chat_server/config/db.js",
+		"/Users/rafael/Doctormate/Production/doctormate-chatserver/config/config.js",
+		"/Users/rafael/Doctormate/Production/doctormate-chatserver/server.js",
+		"/Users/rafael/Doctormate/Production/doctormate-chatserver/config/db.js",
+		"/Users/rafael/Doctormate/Production/api-doctormate/web/v0.4/application/libraries/Feedly.php",
+		"/Users/rafael/Doctormate/Production/api-doctormate/web/v0.4/application/config/constants.php",
+		"/Users/rafael/Doctormate/Production/api-doctormate/web/v0.4/application/libraries/Ionic_io_sdk.php",
+		"/Users/rafael/Doctormate/Production/api-doctormate/web/v0.4/application/models/Notifications_model.php",
+		"/Users/rafael/Doctormate/Production/api-doctormate/web/v0.4/application/libraries/Aws_sdk.php",
+		"/Users/rafael/[HEROKU] doctormate-backend/web/api/application/controllers/cli/CronNotifications.php",
+		"/Users/rafael/Doctormate/Production/api-doctormate/web/v0.4/application/controllers/cli/CronNotifications.php",
+		"/Users/rafael/Doctormate/Production/api-doctormate/web/v0.4/application/config/mail_config.php",
+		"/Users/rafael/[HEROKU] doctormate-backend/web/api/application/config/mail_config.php",
+		"/Users/rafael/Doctormate/Production/api-doctormate/web/v0.3.3/application/models/Notifications_model.php",
+		"/Users/rafael/Doctormate/Production/api-doctormate/web/v0.3.3/application/controllers/cli/CronNotifications.php",
+		"/Users/rafael/Doctormate/Production/api-doctormate/web/v0.3.1/application/models/Notifications_model.php",
+		"/Users/rafael/Doctormate/Production/api-doctormate/web/v0.3.3/application/config/constants.php",
+		"/private/var/folders/rw/4wk0ct_d7r5823sv4p12kvj00000gp/T/web_dist_app.min_Before_790f7becb672b8e811f9c7db87e674c5e606de82.js",
+		"/Users/rafael/Doctormate/Production/partner-doctormate/web/www/app.js",
+		"/Users/rafael/[HEROKU] doctormate-backend/web/api/application/config/routes.php",
+		"/Library/WebServer/Documents/doctormate-staging/web/api/application/config/routes.php",
+		"/Users/rafael/Doctormate/Production/doctormate-web/web/templates/home/home.html",
+		"/Users/rafael/Doctormate/Production/doctormate-web/web/templates/components/navbar/navbar-home.html",
+		"/Users/rafael/Doctormate/Production/partner-doctormate/web/templates/members/members-acl.html",
+		"/Users/rafael/Doctormate/Production/partner-doctormate/web/templates/members/members.html",
+		"/Users/rafael/Doctormate/Production/partner-doctormate/web/templates/selectPage/edit-page.html",
+		"/Users/rafael/Doctormate/Production/partner-doctormate/web/lib/AngularJS-Toaster/index.js",
+		"/Users/rafael/Doctormate/Dev/doctormate_partner_web/gulpfile.js",
+		"/Users/rafael/[HEROKU] doctormate-backend/web/api/application/libraries/VimeoApi.php",
+		"/Users/rafael/[HEROKU] doctormate-backend/web/api/application/libraries/Facebook_sdk.php",
+		"/Users/rafael/[HEROKU] doctormate-backend/web/api/application/core/MY_Controller.php",
+		"/Users/rafael/Doctormate/Production/api-doctormate/web/v0.3.4/application/config/constants.php",
+		"/Users/rafael/[HEROKU] doctormate-backend/web/api/application/config/constants.php",
+		"/Users/rafael/Doctormate/Production/api-doctormate/web/v0.3.4/application/config/mail_config.php",
+		"/Users/rafael/info.php",
+		"/Users/rafael/Doctormate/Production/api-doctormate/web/v0.3.2/application/controllers/Feed.php",
+		"/Users/rafael/Doctormate/Production/api-doctormate/web/v0.3.2/application/models/Notifications_model.php",
+		"/Users/rafael/Doctormate/Production/api-doctormate/web/v0.3/application/models/Notifications_model.php",
+		"/Users/rafael/Doctormate/Production/api-doctormate/web/v0.3.3/application/config/mail_config.php",
+		"/Users/rafael/Doctormate/Production/api-doctormate/web/v0.3.1/application/config/mail_config.php",
+		"/Users/rafael/Doctormate/Production/api-doctormate/web/v0.3.2/application/config/mail_config.php",
+		"/Users/rafael/Doctormate/Production/api-doctormate/web/v0.3.2/application/config/config.php",
+		"/Users/rafael/Doctormate/Production/api-doctormate/web/v0.3/application/config/mail_config.php",
+		"/Users/rafael/Doctormate/Production/admin-doctormate/web/.htaccess",
+		"/.htaccess",
+		"/Users/rafael/Doctormate/Production/admin-doctormate/web/www/app.js",
+		"/Users/rafael/Doctormate/Production/admin-doctormate/web/www/controllers/disabledCtrl/disableCtrl.js",
+		"/Users/rafael/Doctormate/Production/admin-doctormate/web/templates/admin/navbar/navbar-admin.html",
+		"/Users/rafael/Doctormate/Production/api-doctormate/web/v0.3.3/application/models/Mail_model.php",
+		"/Users/rafael/[HEROKU] doctormate-backend/web/api/application/models/Mail_model.php",
+		"/Users/rafael/Doctormate/Production/api-doctormate/web/v0.3.3/application/models/Users_model.php",
+		"/Users/rafael/Doctormate/Production/api-doctormate/web/v0.3.3/application/core/MY_Controller.php",
+		"/Users/rafael/[HEROKU] doctormate-backend/web/api/application/controllers/MailController.php",
+		"/Users/rafael/Doctormate/Production/api-doctormate/web/v0.3.2/application/controllers/Users.php",
+		"/Users/rafael/Doctormate/Production/api-doctormate/web/v0.3.2/application/models/Users_model.php",
+		"/Users/rafael/Doctormate/Production/api-doctormate/web/v0.3.2/application/models/Comments_model.php",
+		"/Users/rafael/Doctormate/Production/api-doctormate/web/v0.3.2/application/models/Pages_model.php",
+		"/Users/rafael/Doctormate/Production/admin-doctormate/web/application/controllers/Users.php",
+		"/Library/WebServer/Documents/doctormate-staging/web/api/application/config/constants.php",
+		"/Library/WebServer/Documents/doctormate-staging/web/api/application/core/MY_Controller.php",
+		"/Library/WebServer/Documents/doctormate-staging/web/api/application/libraries/Facebook_sdk.php",
+		"/Users/rafael/Downloads/Tower/resources.arsc",
+		"/Users/rafael/Doctormate/Production/api-doctormate/web/v0.3.3/application/models/Groups_model.php",
+		"/private/var/folders/rw/4wk0ct_d7r5823sv4p12kvj00000gp/T/web_api_application_models_Notifications_model_Before_6ff2355c67dc347aff6c6a303505e032c295cf92.php",
+		"/private/var/folders/rw/4wk0ct_d7r5823sv4p12kvj00000gp/T/web_api_application_models_Groups_model_Before_6ff2355c67dc347aff6c6a303505e032c295cf92.php",
+		"/Users/rafael/Doctormate/Production/api-doctormate/web/v0.3.3/application/models/Feed_model.php",
+		"/private/var/folders/rw/4wk0ct_d7r5823sv4p12kvj00000gp/T/web_api_application_models_Feed_model_Before_6ff2355c67dc347aff6c6a303505e032c295cf92.php",
+		"/Users/rafael/Doctormate/Production/api-doctormate/web/v0.3.3/application/controllers/Groups.php",
+		"/private/var/folders/rw/4wk0ct_d7r5823sv4p12kvj00000gp/T/web_api_application_controllers_Groups_Before_6ff2355c67dc347aff6c6a303505e032c295cf92.php",
+		"/private/var/folders/rw/4wk0ct_d7r5823sv4p12kvj00000gp/T/web_api_application_controllers_Files_Before_6ff2355c67dc347aff6c6a303505e032c295cf92.php",
+		"/Users/rafael/[HEROKU] doctormate-backend/web/api/application/models/Feed_model.php"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"TOAST-NOTE: Your click handler",
+			"toaster",
+			"agent",
+			"HTTPContentType",
+			"setContentType",
+			"io_method(",
+			"connect(",
+			"connect",
+			"sendReq",
+			"serializeEnvelope(",
+			"soap_transport_http",
+			"send(",
+			"verify",
+			"curl",
+			"mb",
+			"api.doctormate",
+			"dario",
+			"!=",
+			"cli",
+			"clinoti",
+			"notification",
+			"v0.3.3",
+			"private",
+			"getnotification",
+			"getuserac",
+			"commentsP",
+			"'\n",
+			"notifications_model",
+			".$parent.$eval",
+			".$",
+			"register",
+			"log",
+			"logs",
+			"insereCrm"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.ios.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1054,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "tabs.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 298.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
