@@ -43,7 +43,7 @@ class FeedList extends Component {
 
 const mapStateToProps = (state) => {
 	const { feedList, loading } = state.feedList;
-	console.log(feedList);
+	
 	return { feedList, loading };
 };
 
