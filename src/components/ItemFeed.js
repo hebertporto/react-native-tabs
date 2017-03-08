@@ -3,17 +3,21 @@ import { Text } from 'react-native';
 import { CardSection, Card } from './common';
 
 class ItemFeed extends Component {
+
+	
 	render() {
+		const { feed } = this.props;
+
 		return (
 			<Card>
 				<CardSection>
 					<Text>
-						Header
+						{feed.title}
 					</Text>
 				</CardSection>
 				<CardSection>
 					<Text>
-						Body
+						{feed.body}
 					</Text>
 				</CardSection>
 			</Card>
