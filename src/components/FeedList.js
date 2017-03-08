@@ -1,30 +1,50 @@
 import React, { Component } from 'react';
-import { ScrollView } from 'react-native';
-import axios from 'axios';
+import { ListView } from 'react-native';
+import { connect } from 'react-redux';
+import { loadFeed } from '../actions';
+import { Spinner } from './common';
 import ItemFeed from './ItemFeed';
 
 class FeedList extends Component {
 
-	state = { feedList: [] };
-
-
 	componentWillMount() {
-		axios.get('https://jsonplaceholder.typicode.com/posts').then(response => this.setState({ feedList: response.data }));
+		this.props.loadFeed();
+		this.createDataSource(this.props);
+	}
+	
+	componentWillReceiveProps(nextProps) {
+		this.createDataSource(nextProps);
 	}
 
-	renderFeed() {
-		return this.state.feedList.map(feed => 
-			<ItemFeed key={feed.id} feed={feed} />
-		);
+	createDataSource({ feedList }) {
+		const ds = new ListView.DataSource({
+			rowHasChanged: (r1, r2) => r1 !== r2
+		});
+		this.dataSource = ds.cloneWithRows(feedList);
+	}
+
+	renderRow(feed) {
+		return <ItemFeed feed={feed} />;
 	}
 
 	render() {
+		if (this.props.loading) {
+			return <Spinner size='large' />;
+		}
 		return (
-			<ScrollView>
-				{this.renderFeed()}
-			</ScrollView>
+			<ListView
+				enableEmptySections
+				dataSource={this.dataSource}
+				renderRow={this.renderRow}
+			/>
 		);
 	}
 }
 
-export default FeedList;
+const mapStateToProps = (state) => {
+	const { feedList, loading } = state.feedList;
+	console.log(feedList);
+	return { feedList, loading };
+};
+
+export default connect(mapStateToProps, { loadFeed })(FeedList);
