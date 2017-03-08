@@ -1,13 +1,13 @@
 import React from 'react';
 import { Scene, Router } from 'react-native-router-flux';
-import { Text, StyleSheet, View } from 'react-native';
+import { Text, StyleSheet } from 'react-native';
 import ItemFeed from './components/ItemFeed';
 import FeedList from './components/FeedList';
 
 class TabIcon extends React.Component {
     render() {
         return (
-			<Text style={{ color: this.props.selected ? 'red' : 'black' }}>{this.props.title}</Text>
+			<Text style={{ color: this.props.selected ? '#009688' : '#757575' }}>{this.props.title}</Text>
         );
     }
 }
