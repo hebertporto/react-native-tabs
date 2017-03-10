@@ -24,7 +24,7 @@ class FeedList extends Component {
 	}
 
 	renderRow(feed) {
-		return <ItemFeed feed={feed} />;
+		return <ItemFeed feed={feed} clickable />;
 	}
 
 	render() {
