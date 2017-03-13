@@ -5,12 +5,20 @@ export const loadFeed = () => {
 	return (dispatch) => {
 		dispatch({ type: LOAD_FEED });
 
-		axios.get('https://jsonplaceholder.typicode.com/posts')
-			.then(response => {
-				dispatch({ type: LOAD_FEED_SUCCESS, payload: response.data });
-			})
-			.catch(() => {
-				dispatch({ type: LOAD_FEED_FAIL });
-			});
+		axios.get('https://jsonplaceholder.typicode.com/photos')
+			.then(responsePhotos => {
+				axios.get('https://jsonplaceholder.typicode.com/posts')
+					.then(responsePosts => {
+						const feedPhotos = responsePhotos.data;
+						for (let i = 0; i < feedPhotos.length; ++i) {
+							feedPhotos[i].body = responsePosts.data[i % responsePosts.data.length].body;
+						}
+					dispatch({ type: LOAD_FEED_SUCCESS, payload: feedPhotos });
+				}).catch(loadFailed(dispatch));
+			}).catch(loadFailed(dispatch));	
 	};
+};
+
+const loadFailed = (dispatch) => {
+	dispatch({ type: LOAD_FEED_FAIL });
 };

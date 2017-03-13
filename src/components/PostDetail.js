@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { ListView, Text } from 'react-native';
-import { CardSection, Card } from './common';
+import { CardSection } from './common';
+import ItemFeed from './ItemFeed';
 import { loadComments } from '../actions';
 
 class PostDetail extends Component {
@@ -25,18 +26,7 @@ class PostDetail extends Component {
 	renderHeader() {
 		const { feed } = this.props;
 		return (
-			<Card>
-				<CardSection>
-					<Text>
-						{feed.title}
-					</Text>
-				</CardSection>
-				<CardSection>
-					<Text>
-						{feed.body}
-					</Text>
-				</CardSection>
-			</Card>
+			<ItemFeed feed={feed} />
 		);
 	}
 

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Text, TouchableWithoutFeedback, View } from 'react-native';
+import { Text, TouchableWithoutFeedback, View, Image } from 'react-native';
 import { Actions } from 'react-native-router-flux';
 import { CardSection, Card } from './common';
 
@@ -11,10 +11,10 @@ class ItemFeed extends Component {
 	
 	render() {
 		const { feed } = this.props;
-
+		console.log(feed.url);
 		return (
 			<TouchableWithoutFeedback
-				onPress={this.selectFeed.bind(this)}
+				onPress={this.props.clickable && this.selectFeed.bind(this)}
 			>
 				<View>
 					<Card>
@@ -23,10 +23,17 @@ class ItemFeed extends Component {
 								{feed.title}
 							</Text>
 						</CardSection>
-						<CardSection>
+						<CardSection style={{ flexDirection: 'column' }}>
 							<Text>
 								{feed.body}
 							</Text>
+							<Image
+								style={{ flex: 1, 
+										width: undefined, 
+										height: 400 
+										}}
+								source={{ uri: feed.url }}
+							/>
 						</CardSection>
 					</Card>
 				</View>
